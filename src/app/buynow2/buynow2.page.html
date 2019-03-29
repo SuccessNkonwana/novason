@@ -1,0 +1,34 @@
+
+<ion-content>
+         <ion-menu-button></ion-menu-button>
+        <ion-img src="/assets/images/novasonlogo.jpeg"></ion-img>
+        <p>Tell us who you are?</p>
+        <form [formGroup]="buynow">
+               
+                <!-- <label >Title: &nbsp;</label> -->
+                
+                <div class="list">
+                        <ion-select class="browser-default custom-select mb-4" formControlName="title" placeholder="title" >
+                                <option value="" disabled>Select one</option>
+                                <ion-select-option value="" disabled>Select one</ion-select-option>
+                                <ion-select-option value="Ms">Ms</ion-select-option>
+                                <ion-select-option value="Mrs">Mrs</ion-select-option>
+                                <ion-select-option value="Mr">Mr</ion-select-option>
+                               
+                        </ion-select>
+                        
+                        <ion-input type="text" placeholder="Name(s)" formControlName="name"></ion-input>
+                        <input type="text" placeholder="SurName" formControlName="surname">
+                        <input type="text" placeholder="RSA ID Number" formControlName="idNum">
+                        <input type="text" placeholder="Mobile Phone Number" formControlName="phone">
+                        <input formControlName="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <div class="padding">
+                        <button class="button button-block button-positive" > Back</button></div>
+                        <div class="padding">
+                        <button class="button button-block button-positive" > Next</button></div>
+                </div>  
+                              
+        </form>
+        
+  
+</ion-content>

@@ -1,0 +1,32 @@
+ion-button {
+    width: 40%;
+    margin: 5%;
+   
+}
+ion-menu-button{
+    
+}
+ion-toggle {
+    float: right;
+}
+p{
+    margin-left: 25%;
+}
+form {
+    //background-image: url("/assets/images/background.jpeg");
+   // background-color: grey;
+    padding: 20px 20px ;
+    border: 1px solid;
+    border-radius: 10%;
+    //left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ion-item {
+    --border-color: var(--ion-color-primary, #3d4ff1);
+  }
+  a {
+    text-decoration: none;
+   
+}
